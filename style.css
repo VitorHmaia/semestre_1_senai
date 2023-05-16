@@ -37,6 +37,7 @@ header{
     align-items: center;
 }
 
+
 /* Botão navbar */
 
 nav .togglebtn{
@@ -79,4 +80,60 @@ nav .navlinks li a{
 nav .navlinks li a:hover{
     color: #ffffff;
 
+}
+
+
+header .logo-text{
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.container .text{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container .text h5{
+    color: cadetblue;
+    font-size: 24px;
+    text-align: center;
+}
+
+.container .text h5 span{
+    color: rgb(116, 90, 177);
+    font-size: 26px;
+    text-align: center;
+}
+
+.container .text h1{
+    color: rgb(116, 90, 177);
+    font-size: 2rem;
+}
+
+.container .text p{
+    color: #d9d9d9;
+}
+
+.btn{
+    margin: 45px 0;
+}
+
+.btn .btn-git{
+    border-color: #d5d5d5;
+    color: #fff;
+    background-color: #333;
+    padding: 12px 25px;
+    margin: 5px 0;
+    border-radius: 30px;
+    border: 2px solid #e5e5e5;
+    box-shadow: 0 10px 10px -8px rgb(0, 0, 0);
 }
