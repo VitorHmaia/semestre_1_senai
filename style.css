@@ -93,19 +93,21 @@ header .logo-text{
     justify-content: space-around;
     align-items: center;
     padding-top: 4rem;
+    padding-right: 15%;
 }
 
 .container .text{
     max-width: 500px;
     display: flex;
     flex-direction: column;
-
+    line-height: 26px;
 }
 
 .container .text h5{
     color: cadetblue;
     font-size: 24px;
     text-align: center;
+    padding-bottom: 3rem;
 }
 
 .container .text h5 span{
@@ -115,8 +117,9 @@ header .logo-text{
 }
 
 .container .text h1{
-    color: rgb(116, 90, 177);
+    color: rgb(189, 180, 210);
     font-size: 2rem;
+    padding-bottom: 30px;
 }
 
 .container .text p{
@@ -125,6 +128,7 @@ header .logo-text{
 
 .btn{
     margin: 45px 0;
+    transition: 0.2s ease-in;
 }
 
 .btn .btn-git{
@@ -136,4 +140,84 @@ header .logo-text{
     border-radius: 30px;
     border: 2px solid #e5e5e5;
     box-shadow: 0 10px 10px -8px rgb(0, 0, 0);
+    transition: 0.2s ease-in;
+}
+
+.btn .btn-git:hover{
+    transform: scale(1.2);
+    box-shadow: 0 10px 10px -8px rgba(255, 255, 255, 0.283);
+}
+
+.btn:hover{
+    transform: scale(1.08);
+}
+
+/* Responsividade  para navbar e conteúdo*/
+
+@media (max-width: 1000px) {
+
+    nav .togglebtn{
+        display: initial;
+    }
+
+    /* Caso haja clique no botão */
+    .click{
+        top: 45px;
+    }
+
+    .click span{
+        position: absolute;
+        margin-top: 12px;
+    }
+
+    .click span:first-child{
+        transform: rotate(-45deg);
+    }
+
+    .click span:nth-child(2){
+        opacity: 0;
+        margin: 0;
+    }
+
+    .click span:last-child{
+        transform: rotate(45deg);
+        top: 0;
+    }
+    
+    nav .navlinks{
+        position: absolute;
+        top: 110px;
+        right: -100%;
+        bottom: 0;
+        width: 60%;
+        height: 100vh;
+        background-color: #2c2c2c;
+        z-index: 3;
+        box-shadow: 5px 12px 30px rgba(0, 0, 0, 0.283);
+        transition: 0.4s;
+        padding: 25px 0;
+    }
+    nav .navlinks li{
+        display: block;
+    }
+
+    nav .navlinks li a{
+        display: block;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    nav .navlinks.open{
+        right: 0;
+    }
+}
+
+@media (max-width:870px){
+    .container{
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+
+    .container text{
+        padding: 40px 0;
+    }
 }
