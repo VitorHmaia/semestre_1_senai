@@ -6,51 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página inicial</title>
 
-    <link rel="icon" type="image/x-icon" href="/images/icon.webp">
+    <link rel="icon" type="image/x-icon" href="/uikit-3.16.19/src/images/icons/laptop.svg">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    
+    <!--Link para o UIKit-->
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
 </head>
 <body>
-    <div class="hero-header">
-        <div class="wrapper">
-            <header>
-                <div class="logo">
-
+        <nav class="uk-dark uk-navbar-container uk-navbar-transparent" uk-navbar>
+            <div class="uk-container">
+                <div class="uk-navbar-align uk-navbar-center">
+                    <div class="uk-navbar-center">
+                     <div class="uk-navbar-center-right"></div>
+                        <ul class="uk-navbar-nav">
+                        <a class="uk-navbar-item uk-logo" href="#">ADS SENAI 402</a>
+                                <li><a href="#">Programação</a></li>
+                                <li><a href="#">Redes</a></li>
+                                <li><a href="#">Docentes</a></li>
+                        </ul>
+                        <div class="uk-navbar-center-left">
+                            <ul class="uk-navbar-nav">
+                                <li><a href="#">Automação</a></li>
+                                <li><a href="#">Ciência de Dados</a></li>
+                                <li><a href="#">Banco</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="logo-text">ADS - SENAI 402</div>
-            <nav>
-                <div class="togglebtn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+            </div>
+    </nav>
+    <div class="uk-section uk-section-default">
+        <div class="uk-container uk-container-large">
+            <div class="uk-align-center uk-card uk-card-default uk-width-4-5@m uk-card-small">
+                    <div class="uk-card-body uk-card-large uk-card-hover uk-align-center">
+                        <h3 class="uk-card-title uk-align-center">Seja bem-vindo!</h3>
+                        <p>No corrente ano, nos foi apresentado diferentes temas e tecnologias das quais tivemos o privilégio de conhecer e ampliar os conhecimentos. Esta página tem o intuito de sintetizar tudo que estudei durante o primeiro semestre no Curso Superior Tecnólogo em Análise e Desenvolvimento de Sistemas no SENAI 402, desde já agradeço sua atenção!</p>
+                    </div>
                 </div>
-              <ul class="navlinks">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Ling. de Programação</a></li>
-                <li><a href="#">Banco de Dados</a></li>
-                <li><a href="#">Automação</a></li>  
-                <li><a href="#">Redes</a></li>  
-              </ul>  
-            </nav>
-        </header>
-        </div>
-        <div class="container">
-            <div class="image">
-                <img src="" alt="">
-            </div>
-            <div class="text">
-                <h5><span class ="input"></span></h5>
-                <h1>Eu sou o Vítor Hugo Maia</h1>
-                <p>No corrente ano, nos foi apresentado diferentes temas e tecnologias das quais tivemos o privilégio de conhecer e ampliar os conhecimentos. Esta página tem o intuito de sintetizar tudo que estudei durante o primeiro semestre no Curso Superior Tecnólogo em Análise e Desenvolvimento de Sistemas no SENAI 402, desde já agradeço sua atenção!</p>
-
-            </div>
-            <div class="btn">
-                <a href="https://github.com/VitorHmaia" class="btn-git" target="_blank">Acesse meu github</a>
             </div>
         </div>
-    </div>
+    <hr class="uk-divider-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
     <script src="/script.js"></script>
 </body>
