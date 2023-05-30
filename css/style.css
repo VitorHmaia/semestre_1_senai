@@ -1,0 +1,48 @@
+body{
+
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p, li{
+    font-size: 14px;
+    color: black;
+}
+
+#nav-container{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#logo{
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0.3rem;
+    color: azure;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+#navbar-links a{
+    color: rgb(175, 175, 175);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+#navbar-links a:hover{
+    color: rgb(232, 231, 231);
+    scale: 1.02;
+    translate: ease-in 0.2s;
+}
