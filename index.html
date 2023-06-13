@@ -45,7 +45,7 @@
             <li class="nav-item">
               <a
                  class="nav-link"
-                 href="#"
+                 href="#lp"
                  rel="nofollow"
                  >Ling. de Programação</a>
             </li>
@@ -93,7 +93,7 @@
             <li class="nav-item">
               <a
                  class="nav-link ps-2"
-                 href="https://github.com/mdbootstrap/mdb-ui-kit"
+                 href="https://github.com/VitorHmaia"
                  rel="nofollow"
                  target="_blank"
                  >
@@ -150,7 +150,7 @@
     </div>
     <!-- Background image -->
 </header>
-<main class="mt-5">
+<main id="lp">
     <div class="container">
       <!--Section: Content-->
       <section>
@@ -164,21 +164,178 @@
             </div>
           </div>
 
-          <div class="col-md-6 gx-5 mb-4">
-            <h4><strong>Linguagem de Programação</strong></h4>
+          <div class="col-md-6 gx-5 mb-4" id="lp">
+            <h3><strong>Linguagem de Programação</strong></h3>
+            <br>
             <p class="text-muted">
-              De forma introdutória ao curso superior de Análise e Desenvolvimento de Sistemas, iniciamos as primeiras aulas conhecendo sobre a linguagem de marcação de texto HTML e estilização em cascata CSS, além disso, desenvolvemos um projeto com base nesses conhecimentos adquiridos, com intuito de gerar um currículo em uma página web.  
+              De forma introdutória ao curso superior de Análise e Desenvolvimento de Sistemas, iniciamos as primeiras aulas conhecendo sobre a linguagem de marcação de texto HTML e estilização em cascata CSS.
               <br><br>
-              Vale ressaltar que também aprendemos sobre variáveis, funções, estruturas condicionais (if, else e switch case), estruturas de repetição (for, while e do-while) e DOM com a linguagem javascript.
+              Com foco na programação das diferentes camadas computacionais, vimos:
+              Definição. Características. Ambientes programação (IDE). Compiladores e interpretadores. Sintaxe e semântica. Tipos de variáveis e suas aplicações (Caracteres. Números inteiros e reais. Vazio, nula e indefinidas. Booleano), estruturas de dados (string, arrays, tuplas, conjuntos), além de estruturas de controle (seleção e repetição) e operadores lógicos (AND, NAND, OR, NOT, XOR, XNOR e NOR).
             </p>
-            <p><strong>Doloremque vero ex debitis veritatis?</strong></p>
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet, 
+          </div>
+          <div id="intro" class="p-5 text-center bg-light shadow-5">
+            <h1 class="mb-0 h4">HTML & CSS</h1>
+            <br>
+            <img src="/images/html_css_java.webp" class="img-thumbnail img-fluid" style="width: 60%;"alt="Tecnologias estudadas: HTML, CSS e Javascript">
+            <br><br>
+            <p>Sobre a HyperText Markup Language, aprendemos a sintaxe do HTML-5, vimos sobre o padrão UTF-8, comandos básico de titulação, formulário, botões, links, listas e tabelas, além da semântica conforme os bons costumes da programação, abrangendo divs como nav, section, footer, header, article, aside, main, figure, em, strong e bold. Integrado ao documento index.html, nós também aprendemos sobre o mecanismo de estilização Cascading Style Sheets (CSS), que nos permite personalizar o documento HTML, além de possibilitar a criação de animações de escala, transição, hover, scroll, pointer, transform, perspective, opacidade (opactity) e diversos outros recursos de customização de páginas e posicionamento dos elementos. </p>
+            <p class="note note-light">
+              <strong>Javascript:</strong> Iniciamos aprendendo sobre a história do Javascript e sua evolução ao longo dos anos, além disso, desenvolvemos exercícios com programação procedural para melhor entendimento da linguagem e fixação dos conhecimentos. Implementamos algoritmos que realizam cálculos de média, potenciação, divisão, fatorial, multiplicação, soma, resto de divisão, estruturas de repetição e condicionais. Em relação ao Js no desenvolvimento web, vimos como integrar o script com o documento html, além da sua manipulação por via do DOM (Document Object Model), que além dos seus diversos recursos, nos permite adicionar funções na captura de eventos (como clique, passar o mouse sobre algo, fechar uma guia, enviar um formulário, etc.). Ainda na manipulação com DOM, nós aprendemos sobre funções que modificam elementos no html, ou seja, realizam animações entre as divs, permitindo que altere suas características e visualizações.
             </p>
+          </div>
+          <!-- Carousel wrapper -->
+          <div id="carouselBasicExample" class="carousel slide carousel-fade text-center" data-mdb-ride="carousel">
+  <!-- Indicators -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-mdb-target="#carouselBasicExample"
+                data-mdb-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-mdb-target="#carouselBasicExample"
+                data-mdb-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-mdb-target="#carouselBasicExample"
+                data-mdb-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              </div>
+
+  <!-- Inner -->
+  <div class="carousel-inner" id="conteudo_slider">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <img src="/images/transformcode.png" class="d-block w-100" alt="Projeto TransformCode"/>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Estes foram os projetos desenvolvidos!</h5>
+        <p>Portfólio em HTML e CSS</p>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <img src="./images/html_semantico.png" class="d-block w-100" alt="Website sobre HTML semântico"/>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Website sobre HTML5</h5>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <img src="/images/calculo_folha.png" class="d-block w-100" alt="Página sobre cálculo folha de pagamento"/>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Cálculo</h5>
+      </div>
+    </div>
+    </div>
+
+              <!-- Controls -->
+              <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample"       data-mdb-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample"         data-mdb-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
       </section>
+      <br><br>
 
+
+      <div class="container">
+        <!--Section: News of the day-->
+        <section class="border-bottom pb-4 mb-5">
+          <div class="row gx-5">
+            <div class="col-md-6 mb-4">
+              <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+                <img src="/images/SemMaia.gif" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+            </div>
+    
+            <div class="col-md-6 mb-4">
+              <h3><strong>Automação Industrial</strong></h3>
+              <p class="text-muted">
+                Além disso, no módulo de automação, nos foi apresentado sobre sensores industriais (capacitivos, indutivos, ópticos, óptico-reflexivo, temperatura, pressão, magnéticos) e em especial o sensor ultrassônico, o qual aprendemos sobre seu funcionamento por via do trigger (”disparo” de ativação), seus pinos de ligação e realizamos um projeto na plataforma Tinkercad para visualizar seu funcionamento.
+              </p>
+              <a class="btn btn-outline-dark btn-lg m-2" href="https://www.tinkercad.com/login" target="_blank">Clique para visualizar o projeto ao lado!</a>
+            </div>
+          </div>
+          <p>Ainda em embarcados, aprendemos sobre os conceitos e aplicações da robótica, o surgimento dos robôs industriais e suas evoluções ao longo dos anos, com seus diferentes tipo, como os robôs móveis, humanoide, de base fixa (conhecemos seus eixos em paralelo e série), além dos tipos de coordenadas as quais trabalham (coordenadas cartesianas, cilíndricas, esféricas). Vale ressaltar que também nos foi apresentado nas aulas os tipos de ferramenta das quais os robôs podem dispor (garras, desbaste, eletrodos de solda, câmera, ventosas, magnéticas, pistola de pintura e multifuncional), juntamente com a definição da sua carga de trabalho, denominada payload, além de diversos exercícios de movimentação para fixação dos conhecimentos.</p>
+        </section>
+        <section>
+          <div class="row gx-lg-5">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+              <!-- News block -->
+              <div>
+                <!-- Featured image -->
+                <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4" data-mdb-ripple-color="light">
+                  <img src="/images/UltrMaia.gif" class="img-fluid" />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+    
+                <!-- Article data -->
+                <div class="row mb-3">
+                  <div class="col-6">
+                    <a href="" class="text-info">
+                    </a>
+                  </div>
+    
+                  <div class="col-6 text-end">
+                  </div>
+                </div>
+    
+                <!-- Article title and description -->
+                <a href="" class="text-dark">
+                  <h5>Sensor ultrassônico</h5>
+    
+                  <p>
+                    Programação e funcionamento do sensor na plataforma Tinkercad.
+                  </p>
+                </a>
+    
+                <hr/>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <!-- News block -->
+            <div>
+              <!-- Featured image -->
+              <div class="bg-image hover-overlay shadow-1-strong rounded-5 ripple mb-4" data-mdb-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/fluid/city/011.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+
+              <a href="" class="text-dark">
+                <h5>Robótica industrial</h5>
+                <p>
+                  Realizamos aulas práticas com os robôs, a fim de aprender as mecânicas e conhecimento de coordenadas.
+                </p>
+              </a>
+              <hr/>
+  
+        </section>
+        <!--Section: Content-->
 
   <!--Scripts-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
