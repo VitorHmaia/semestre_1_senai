@@ -69,21 +69,29 @@
   }
 }
 
-#ft_seminario{
+#ft_db, #ft_db_universidade{
   margin-left: 25%;
 }
 
+#ft_seminario{
+  margin-left: 50%;
+}
 
-@media (max-width: 435px) {
-  #ft_seminario{
+@media (max-width: 450px) {
+  #ft_seminario,  #ft_db, #ft_db_universidade, #bd_img{
     margin-left: 1%;
   }
 }
 
-#bd-sec{
+@media (max-width: 768px) {
+  #ft_seminario, #ft_db, #ft_db_universidade, #bd_img{
+    margin-left: 1%;
+  }
+}
+#bd_img{
   margin-top: 3%;
 }
 
-#bd{
-  margin-top: 5%;
+#bd-sec{
+  margin-top: 3%;
 }
