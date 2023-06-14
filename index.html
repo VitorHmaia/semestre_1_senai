@@ -52,14 +52,14 @@
             <li class="nav-item">
               <a
                  class="nav-link"
-                 href="#"
-                 >Redes</a>
+                 href="#aut_ind"
+                 >Automação</a>
             </li>
             <li class="nav-item">
                 <a
                    class="nav-link"
                    href="#"
-                   >Ciência de dados</a>
+                   >Redes</a>
               </li>
               <li class="nav-item">
                 <a
@@ -71,7 +71,7 @@
                 <a
                    class="nav-link"
                    href="#"
-                   >Automação</a>
+                   >Ciência de dados</a>
               </li>
           </ul>
   
@@ -150,12 +150,12 @@
     </div>
     <!-- Background image -->
 </header>
-<main id="lp">
+<main id="lp_sec">
     <div class="container">
       <!--Section: Content-->
       <section>
         <div class="row">
-          <div class="col-md-6 gx-5 mb-4">
+          <div class="col-md-6 gx-5 mb-4" id="img_lp">
             <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
               <img src="/images/coding.jpg" class="img-fluid" />
               <a href="#!">
@@ -177,7 +177,7 @@
           <div id="intro" class="p-5 text-center bg-light shadow-5">
             <h1 class="mb-0 h4">HTML & CSS</h1>
             <br>
-            <img src="/images/html_css_java.webp" class="img-thumbnail img-fluid" style="width: 60%;"alt="Tecnologias estudadas: HTML, CSS e Javascript">
+            <img src="/images/html_css_java.webp" class="shadow-2-strong rounded-5 img-fluid" style="width: 60%;"alt="Tecnologias estudadas: HTML, CSS e Javascript">
             <br><br>
             <p>Sobre a HyperText Markup Language, aprendemos a sintaxe do HTML-5, vimos sobre o padrão UTF-8, comandos básico de titulação, formulário, botões, links, listas e tabelas, além da semântica conforme os bons costumes da programação, abrangendo divs como nav, section, footer, header, article, aside, main, figure, em, strong e bold. Integrado ao documento index.html, nós também aprendemos sobre o mecanismo de estilização Cascading Style Sheets (CSS), que nos permite personalizar o documento HTML, além de possibilitar a criação de animações de escala, transição, hover, scroll, pointer, transform, perspective, opacidade (opactity) e diversos outros recursos de customização de páginas e posicionamento dos elementos. </p>
             <p class="note note-light">
@@ -185,7 +185,8 @@
             </p>
           </div>
           <!-- Carousel wrapper -->
-          <div id="carouselBasicExample" class="carousel slide carousel-fade text-center" data-mdb-ride="carousel">
+          <section id="carousel-size">
+          <div id="carouselBasicExample" class="carousel slide carousel-fade text-center  shadow-5-strong" data-mdb-ride="carousel">
   <!-- Indicators -->
             <div class="carousel-indicators">
               <button
@@ -211,7 +212,7 @@
               </div>
 
   <!-- Inner -->
-  <div class="carousel-inner" id="conteudo_slider">
+  <div class="carousel-inner rounded-5" id="conteudo_slider">
     <!-- Single item -->
     <div class="carousel-item active">
       <img src="/images/transformcode.png" class="d-block w-100" alt="Projeto TransformCode"/>
@@ -248,8 +249,10 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+        </section>
         </div>
       </section>
+      <hr>
       <br><br>
 
 
@@ -259,19 +262,19 @@
           <div class="row gx-5">
             <div class="col-md-6 mb-4">
               <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
-                <img src="/images/SemMaia.gif" class="img-fluid" />
-                <a href="#!">
+                <img src="/images/robotica_industrial (1).gif" class="img-fluid w-100" />
+                <a href="https://drive.google.com/file/d/13zgRSA2wSBAG_92TGj6wtqNGYkcGXgu0/view?usp=sharing" target="_blank">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
             </div>
     
             <div class="col-md-6 mb-4">
-              <h3><strong>Automação Industrial</strong></h3>
+              <h3 id="aut_ind"><strong>Automação Industrial</strong></h3><br>
               <p class="text-muted">
                 Além disso, no módulo de automação, nos foi apresentado sobre sensores industriais (capacitivos, indutivos, ópticos, óptico-reflexivo, temperatura, pressão, magnéticos) e em especial o sensor ultrassônico, o qual aprendemos sobre seu funcionamento por via do trigger (”disparo” de ativação), seus pinos de ligação e realizamos um projeto na plataforma Tinkercad para visualizar seu funcionamento.
-              </p>
-              <a class="btn btn-outline-dark btn-lg m-2" href="https://www.tinkercad.com/login" target="_blank">Clique para visualizar o projeto ao lado!</a>
+              </p><br><br>
+              <a class="btn btn-outline-dark btn-lg m-2" href="https://drive.google.com/file/d/13zgRSA2wSBAG_92TGj6wtqNGYkcGXgu0/view?usp=sharing" target="_blank">Clique para visualizar o projeto ao lado!</a>
             </div>
           </div>
           <p>Ainda em embarcados, aprendemos sobre os conceitos e aplicações da robótica, o surgimento dos robôs industriais e suas evoluções ao longo dos anos, com seus diferentes tipo, como os robôs móveis, humanoide, de base fixa (conhecemos seus eixos em paralelo e série), além dos tipos de coordenadas as quais trabalham (coordenadas cartesianas, cilíndricas, esféricas). Vale ressaltar que também nos foi apresentado nas aulas os tipos de ferramenta das quais os robôs podem dispor (garras, desbaste, eletrodos de solda, câmera, ventosas, magnéticas, pistola de pintura e multifuncional), juntamente com a definição da sua carga de trabalho, denominada payload, além de diversos exercícios de movimentação para fixação dos conhecimentos.</p>
@@ -284,7 +287,7 @@
                 <!-- Featured image -->
                 <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4" data-mdb-ripple-color="light">
                   <img src="/images/UltrMaia.gif" class="img-fluid" />
-                  <a href="#!">
+                  <a href="https://www.tinkercad.com/things/1m98EcLrYKX-copy-of-semaforo/editel?sharecode=pl2HOvpSvmKAhYiMmACXvB-lrMNE1UobIC5yNjab9JM" target="_blank">
                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                   </a>
                 </div>
@@ -305,38 +308,183 @@
                   <h5>Sensor ultrassônico</h5>
     
                   <p>
-                    Programação e funcionamento do sensor na plataforma Tinkercad.
+                    Programação e funcionamento do sensor na plataforma Tinkercad. 
                   </p>
                 </a>
-    
                 <hr/>
 
               </div>
             </div>
-          </div>
 
           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
             <!-- News block -->
-            <div>
               <!-- Featured image -->
               <div class="bg-image hover-overlay shadow-1-strong rounded-5 ripple mb-4" data-mdb-ripple-color="light">
-                <img src="https://mdbootstrap.com/img/new/fluid/city/011.jpg" class="img-fluid" />
-                <a href="#!">
+                <img src="/images/SemMaia.gif" class="img-fluid" />
+                <a href="https://www.tinkercad.com/things/hGIcW2GzUwQ-copy-of-fantabulous-rottis-albar/editel?sharecode=esO_AvGXgcTQ68PEV8sURspgM8r82lTF-r6GPsTt1nI" target="_blank">
                   <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
               </div>
 
               <a href="" class="text-dark">
-                <h5>Robótica industrial</h5>
+                <h5>Simulador de semáforo</h5>
                 <p>
-                  Realizamos aulas práticas com os robôs, a fim de aprender as mecânicas e conhecimento de coordenadas.
+                  A fim de entender a lógica de programação em C, desenvolvemos um sistema que simula um semáforo e sua ordem de funcionamento.
                 </p>
               </a>
               <hr/>
-  
-        </section>
-        <!--Section: Content-->
+              </div>
+                  <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <!-- News block -->
+            <div>
+              <!-- Featured image -->
+              <div class="bg-image hover-overlay shadow-1-strong rounded-5 ripple mb-4" data-mdb-ripple-color="light">
+                <img src="/images/leds_projeto (2).gif" class="img-fluid w100" />
+                <a href="https://www.tinkercad.com/things/5sYfKrobOGA-copy-of-grand-densor-rottis/editel?sharecode=C8RcyKLW6Rkbp5_4axu7VbNK73ptrzET4avAWFTZ-M4" target="_blank">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
 
+              <a href="" class="text-dark">
+                <h5>Leds sequenciais</h5>
+                <p>
+                  Desenvolvemos também uma lógica que acende os leds de forma senquencial, a fim de fixar os conhecimentos na linguagem C.
+                </p>
+              </a>
+              <hr/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div
+    id="intro"
+    class="bg-image"
+    style="
+      background-image: url(/images/cloud-computing.jpg);
+      height: 100vh;
+      ">
+     <div class="mask text-white" style="background-color: rgba(0, 0, 0, 0.6)">
+       <div class="container d-flex align-items-center text-center h-100">
+         <div class="intro">
+           <h1><span class="mb-5" id="input">Redes de Computadores</span></h1>
+           <br><br>
+           <h7><p>
+            Já em redes, nós iniciamos o módulo aprendendo as definições de PAN, CAN, LAN e WAN, também conhecemos os tipos de topologia existentes (física - cabos e pc, e também lógica - modo que os dados circulam). Seguindo a questão de topologia, vimos a descrição e aplicação dos endereços MACs (Media Acess Control), este responsavél pela identificação e envio dos pacotes, além do LLC (Logical Link Control) que controla o fluxo dos dados, conhecemos sobre o controle de paridade Frame Checker Sequence (FCS) e o CRC (cycle redundance check). 
+           </p></h7>
+         </div>
+        </div>
+      </div>
+      </section>
+    <div class="container">
+      <div class="row" id="redes-sec">
+        <div class="col-md-6 gx-5 mb-4"  id="redes_img">
+          <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+            <img src="/images/lan_ciscopackettracer.gif" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-6 gx-5 mb-4">
+          <p class="text-muted">
+            Sobre os tipos de modelos de padronização, nos foi apresentado o modelo OSI (com as suas 7 camadas, sendo uma de aplicação, apresentação, sessão, transporte, rede, enlace e física) e o TCP/IP que classifica essas tabelas por agrupamentos específicos, como o de aplicação, transporte e internet e acesso a rede, além das diferentes protocolos existentes nessas camadas, como o HTTP, HTTPS, ICMP, FTP, FTPS, UDP/TCP, IPV4 e IPV6, e na parte física o MAC.
+            <br><br>
+            Ainda em redes, nós aprendemos sobre a metodologias de comunicação de pdus unicast, broadcast e multicast, os quais explicitam a maneira de transmissão de dados entre canais, além de realizar diversos exercícios para definir os ips disponíveis em uma ou mais redes, além dos endereços padronizados para a rede e broadcast. Não só, nós conhecemos sobreo padrao IEEE, sua origem, destino, meio de transmissão e regras de comunicação, assim como funciona uma zona desmilitarizadas (DMZ), VPN (tunel encriptografado), DNS (Domain name server), SSH (secure shell), DHCP (Dynamic Host configuration protocol) e o protocolo NAT.
+          </p>
+        </div>
+      </div>
+
+      <p class="note note-info">
+        Por fim, fomos divididos em diversos grupos para apresentar sobre os conteúdos vistos em aula, dessa forma, os temas foram: História da internet, Governança e estrutura, Regulamentação de redes, RFCs da IETF, Governança IPV4 e IPV6 e TCP, UDP, SCTP e DCTP. Em particular, meu grupo ficou encarregado por apresentar sobre o último tema citado, os quais tratam sobre o controle de fluxo e congestionamento de uma rede, assim como as notificações de lentidão de rotas durante a comunicação de dados, <strong>conforme imagens abaixo:</strong>
+      </p>
+      <br><br>
+      <div class="row">
+        <div class="col-md-6 gx-5 mb-4" id="ft_seminario">
+          <img src="/images/protocolos_transporte.jpeg" class="shadow-2-strong rounded-5 img-fluid w-100" alt="Tecnologias estudadas: HTML, CSS e Javascript"> 
+        </div>
+  </div>
+<section>
+  <div class="row gx-lg-5">
+    <h1 class="mb-0 h4 p-5 text-center font-monospace">Projetos desenvolvidos</h1>
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <!-- News block -->
+      <div>
+          <!-- Featured image -->
+        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4" data-mdb-ripple-color="light">
+        <img src="/images/projeto_isp.png" class="img-fluid" />
+        <a href="https://drive.google.com/file/d/141rH5XEG1nfsiP0EnDZSx39CDZLTc5YB/view?usp=sharing" target="_blank">
+        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+        </a>
+        </div>
+
+        <!-- Article data -->
+        <div class="row mb-3">
+          <div class="col-6">
+              <a href="" class="text-info">
+              </a>
+          </div>
+
+          <div class="col-6 text-end">
+            </div>
+        </div>
+
+          <!-- Article title and description -->
+          <a href="" class="text-dark">
+            <h5>Simulador com ISP</h5>
+
+            <p>
+              Desenvolvemos um projeto que simula a comunicação entre uma lan empresarial com servidores e um roteador residencial.
+            </p>
+          </a>
+
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+      <!-- News block -->
+        <!-- Featured image -->
+        <div class="bg-image hover-overlay shadow-1-strong rounded-5 ripple mb-4" data-mdb-ripple-color="light">
+          <img src="/images/zimbabue.png" class="img-fluid" />
+          <a href="https://drive.google.com/file/d/169V9zIntlv6AsoAV84C6QhpmdVcRK3Gr/view?usp=sharing" target="_blank">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+
+        <a href="" class="text-dark">
+          <h5>Comunicação entre WANs</h5>
+          <p>
+            A fim de aprimorar os conhecimentos vistos em aula, desenvolvemos um projeto que simula a comunicação entre WANs.
+          </p>
+        </a>
+        </div>
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+      <!-- News block -->
+      <div>
+        <!-- Featured image -->
+        <div class="bg-image hover-overlay shadow-1-strong rounded-5 ripple mb-4" data-mdb-ripple-color="light">
+          <img src="/images/lan_cisco.png" class="img-fluid w100" />
+          <a href="https://drive.google.com/file/d/1QljZByjvOrI-FH0soRDFuuGL7u6wKiDF/view?usp=sharing" target="_blank">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+
+        <a href="" class="text-dark">
+          <br><br>
+          <h5>Comunicação entre LANs</h5>
+          <p>
+            Proposto pelo docente, o projeto simula a comunicação de PDUs entre dois computadores por via de um Switch.
+          </p>
+        </a>
+      </div>
+    </div>
+    <hr>
+  </div>
+</section>
+</div>
   <!--Scripts-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
     <script src="./script.js"></script>

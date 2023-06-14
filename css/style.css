@@ -25,10 +25,57 @@
     padding: 3%;
 }
 
+#redes-sec{
+  margin-top: 3%;
+}
+
 #conteudo{
   padding: 10%;
 }
 
-#lp{
+#lp, #lp_sec{
   margin-top: 1%;
+}
+
+#img_lp{
+  margin-top: 4%;
+}
+
+#carousel-size{
+  width: 110vh;
+  margin: 2% 20%;
+}
+
+#carousel-size_2{
+  width: 100vh;
+  margin: 2% 20%;
+}
+
+.cards-projetos{
+  display: flex;
+}
+
+#redes_img{
+  margin-top: 5%;
+}
+
+@media (max-width: 1204px) {
+  #carousel-size{
+    margin: 2% 2%;
+  }
+
+  #carousel-slider1{
+    margin: 2% 2%;
+  }
+}
+
+#ft_seminario{
+  margin-left: 25%;
+}
+
+
+@media (max-width: 435px) {
+  #ft_seminario{
+    margin-left: 1%;
+  }
 }
